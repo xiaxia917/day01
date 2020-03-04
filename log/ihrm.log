@@ -1,0 +1,16 @@
+2020-03-03 22:48:22,444 INFO [root] [__init__.py(<module>:14)] - 测试日志是否打印
+2020-03-03 22:48:22,877 INFO [root] [login_parma.py(test01_login:23)] - 参数化登录的结果为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'a2b69249-ca4b-4c3f-9752-5efa5a7b9e90'}
+2020-03-03 22:48:23,264 INFO [root] [login_parma.py(test01_login:23)] - 参数化登录的结果为:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-03 22:48:24,026 INFO [root] [login_parma.py(test01_login:23)] - 参数化登录的结果为:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-03 22:48:24,240 INFO [root] [login_parma.py(test01_login:23)] - 参数化登录的结果为:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-03 22:48:25,551 INFO [root] [login_parma.py(test01_login:23)] - 参数化登录的结果为:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-03 22:48:25,650 INFO [root] [employe_parma.py(test01_login_success:27)] - 员工模块的登录结果为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'cc382c3e-a479-4591-bb55-e1d9fc6cfa8f'}
+2020-03-03 22:48:25,650 INFO [root] [employe_parma.py(test01_login_success:30)] - 取出的令牌为:Bearer cc382c3e-a479-4591-bb55-e1d9fc6cfa8f
+2020-03-03 22:48:25,650 INFO [root] [employe_parma.py(test01_login_success:35)] - 保存在类属性方法为:{'Content-Type': 'application/json', 'Authorization': 'Bearer cc382c3e-a479-4591-bb55-e1d9fc6cfa8f'}
+2020-03-03 22:48:25,758 INFO [root] [employe_parma.py(test02_add_emp:41)] - 添加调试员工接口的结果为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1234853132592566272'}}
+2020-03-03 22:48:25,759 INFO [root] [employe_parma.py(test02_add_emp:47)] - 保存员工的id为:1234853132592566272
+2020-03-03 22:48:25,865 INFO [root] [employe_parma.py(test03_query_emp:53)] - 查询员工的结果为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1234853132592566272', 'mobile': '15687901321', 'username': '吴冲xxss001', 'password': '73470b0f24379209308c152c8739ecc0', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1205026005332635648', 'timeOfEntry': '2020-02-01T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': None, 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2020-02-03T16:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '酱油1部', 'roleIds': [], 'staffPhoto': None}}
+2020-03-03 22:48:25,966 INFO [root] [employe_parma.py(test04_mobiyr_emp:62)] - 修改后的员工的结果为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1234853132592566272'}}
+2020-03-03 22:48:26,164 INFO [root] [employe_parma.py(test04_mobiyr_emp:72)] - 要查询的员工:select username from bs_user where id=1234853132592566272
+2020-03-03 22:48:26,218 INFO [root] [employe_parma.py(test04_mobiyr_emp:77)] - 查询出来的结果为:('new_tom',)
+2020-03-03 22:48:26,317 INFO [root] [employe_parma.py(test05_delete_emp:86)] - 删除后的员工的结果为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}

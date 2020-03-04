@@ -1,0 +1,11 @@
+2020-03-03 22:32:47,843 INFO [root] [__init__.py(<module>:14)] - 测试日志是否打印
+2020-03-03 22:32:48,417 INFO [root] [employe_parma.py(test01_login_success:27)] - 员工模块的登录结果为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'a725eec4-3144-4e2e-bb70-c989da4dcce0'}
+2020-03-03 22:32:48,417 INFO [root] [employe_parma.py(test01_login_success:30)] - 取出的令牌为:Bearer a725eec4-3144-4e2e-bb70-c989da4dcce0
+2020-03-03 22:32:48,417 INFO [root] [employe_parma.py(test01_login_success:35)] - 保存在类属性方法为:{'Content-Type': 'application/json', 'Authorization': 'Bearer a725eec4-3144-4e2e-bb70-c989da4dcce0'}
+2020-03-03 22:32:48,614 INFO [root] [employe_parma.py(test02_add_emp:41)] - 添加调试员工接口的结果为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1234849201699246080'}}
+2020-03-03 22:32:48,616 INFO [root] [employe_parma.py(test02_add_emp:47)] - 保存员工的id为:1234849201699246080
+2020-03-03 22:32:48,830 INFO [root] [employe_parma.py(test03_query_emp:53)] - 查询员工的结果为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1234849201699246080', 'mobile': '15687901321', 'username': '吴冲xxss001', 'password': '73470b0f24379209308c152c8739ecc0', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1205026005332635648', 'timeOfEntry': '2020-02-01T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': None, 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2020-02-03T16:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '酱油1部', 'roleIds': [], 'staffPhoto': None}}
+2020-03-03 22:32:48,937 INFO [root] [employe_parma.py(test04_mobiyr_emp:62)] - 修改后的员工的结果为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1234849201699246080'}}
+2020-03-03 22:32:49,523 INFO [root] [employe_parma.py(test04_mobiyr_emp:72)] - 要查询的员工:select username from bs_user where id=1234849201699246080
+2020-03-03 22:32:49,815 INFO [root] [employe_parma.py(test04_mobiyr_emp:77)] - 查询出来的结果为:('new_tom',)
+2020-03-03 22:32:50,244 INFO [root] [employe_parma.py(test05_delete_emp:86)] - 删除后的员工的结果为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
